@@ -1,6 +1,8 @@
+import { RepositoryList } from './components/RepositoryList';
 import './styles/global.scss';
 
 export function App() {
-  return <h1>Hello Ignite!</h1>;
-  
+  return (
+    <RepositoryList />
+  );
 }
